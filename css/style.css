@@ -243,7 +243,21 @@ h6,
     font-size: 18px;
     color: var(--light);
 }
+.page-header-bds {
+    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/banner-real-estate.png) center center no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
 
+.page-header-bds .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-header-bds .breadcrumb-item,
+.page-header-bds .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
 
 /*** Facts ***/
 .facts {
