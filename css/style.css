@@ -229,7 +229,7 @@ h6,
 }
 
 .page-header-about {
-    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/aboutus.jpg) center center no-repeat;
+    background:url(../img/aboutus.jpg) center center no-repeat;
     background-size: cover;
     min-height: 300px;
 }
@@ -244,7 +244,7 @@ h6,
     color: var(--light);
 }
 .page-header-bds {
-    background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../img/banner-real-estate.png) center center no-repeat;
+    background: url(../img/banner-real-estate.png) center center no-repeat;
     background-size: cover;
     min-height: 300px;
 }
