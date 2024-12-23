@@ -607,7 +607,13 @@ progress {
     max-width: 100%;
     height: auto
 }
-
+.img-bds {
+    max-width: 100%; /* Đảm bảo hình ảnh không vượt quá chiều rộng */
+    height: 800px; /* Chiều cao cố định */
+    display: block; /* Để sử dụng margin auto */
+    margin: 0 auto; /* Căn giữa theo chiều ngang */
+    position: relative; /* Giữ ảnh trong dòng chảy tài liệu bình thường */
+}
 .img-thumbnail {
     padding: .25rem;
     background-color: #fff;
