@@ -258,7 +258,21 @@ h6,
     font-size: 18px;
     color: var(--light);
 }
+.page-header-lpg {
+    background: url(../img/lpgbanner-01.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
 
+.page-header-lpg .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-header-lpg .breadcrumb-item,
+.page-header-lpg .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
 /*** Facts ***/
 .facts {
     position: relative;
