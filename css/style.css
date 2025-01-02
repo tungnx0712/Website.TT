@@ -736,7 +736,7 @@ h6,
 .logo-slider {
     width: 100%; /* Chiều rộng slider */
     overflow: hidden; /* Ẩn các phần dư thừa */
-    background: #f5f5f5; /* Màu nền */
+    background: white; /* Màu nền */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -751,7 +751,7 @@ h6,
 }
 
 /* Các logo */
-.slide {
+.slide-logo {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -760,7 +760,7 @@ h6,
     flex-shrink: 0; /* Đảm bảo kích thước không bị thay đổi */
 }
 
-.slide img {
+.slide-logo img {
     max-height: 100%; /* Logo vừa với khung */
     object-fit: contain; /* Đảm bảo logo không bị méo */
 }
@@ -771,7 +771,7 @@ h6,
         transform: translateX(0); /* Bắt đầu từ vị trí gốc */
     }
     100% {
-        transform: translateX(calc(-250px * 6)); /* Cuộn hết một nửa số logo */
+        transform: translateX(calc(-250px * 2)); /* Cuộn hết một nửa số logo */
     }
 }
 
