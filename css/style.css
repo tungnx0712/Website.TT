@@ -227,7 +227,7 @@ h6,
         object-fit: cover;
     }
 }
-
+ /*** Header about ***/
 .page-header-about {
     background:url(../img/aboutus.jpg) center center no-repeat;
     background-size: cover;
@@ -243,6 +243,9 @@ h6,
     font-size: 18px;
     color: var(--light);
 }
+/*** End Header about ***/
+
+/*** Header BĐS ***/
 .page-header-bds {
     background: url(../img/banner-real-estate.png) center center no-repeat;
     background-size: cover;
@@ -258,6 +261,9 @@ h6,
     font-size: 18px;
     color: var(--light);
 }
+/*** End Header BĐS ***/
+
+/*** Header LPG ***/
 .page-header-lpg {
     background: url(../img/lpgbanner-01.jpg) center center no-repeat;
     background-size: cover;
@@ -273,6 +279,25 @@ h6,
     font-size: 18px;
     color: var(--light);
 }
+/*** End Header LPG ***/
+
+/*** Header Nông nghiệp ***/
+.page-header-nongnghiep {
+    background: url(../img/farmland.jpg) center center no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+.page-header-nongnghiep .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-header-nongnghiep .breadcrumb-item,
+.page-header-nongnghiep .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+/*** End Header Nông nghiệp ***/
 /*** Facts ***/
 .facts {
     position: relative;
